@@ -1,0 +1,98 @@
+
+/* Selector de tipo (elemento HTML) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccd9fc;
+}
+
+/* Selector de ID */
+#inicio {
+    background-color: #3fcfda;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Selector de clase */
+.destacado {
+    color: #382799;
+    font-weight: bold;
+}
+
+/* Selector de clase múltiple */
+.hobby {
+    color: #007bff;
+    font-style: italic;
+}
+
+/* Selector de atributo */
+input[type="text"], input[type="email"], select {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Selector descendente */
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Selector hijo directo */
+header > nav > ul > li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Selector de clase combinada */
+nav ul li a {
+    color: rgb(243, 207, 207);
+    text-decoration: none;
+}
+
+/* Selector de pseudo-clase */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos adicionales */
+header {
+    background-color: #5c76e9;
+    color: rgb(241, 11, 11);
+    padding: 10px;
+}
+
+h1, h2 {
+    color: #3c5e9e;
+}
+
+/*separa de la seccion de contacto  al formulario*/
+form {
+    margin-top: 20px;
+}
+
+
+button {
+    background-color: #e02605;
+    color: rgb(45, 15, 218);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/*Efectos visuales sobre el cursor*/
+button:hover {
+    background-color: #c4d109;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
