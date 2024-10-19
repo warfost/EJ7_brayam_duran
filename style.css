@@ -65,12 +65,12 @@ header {
 }
 
 h1, h2 {
-    color: #3c5e9e;
+    color: #ccd9fc;
 }
 
 /*separa de la seccion de contacto  al formulario*/
 form {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 
