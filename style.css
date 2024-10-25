@@ -43,7 +43,7 @@ header nav ul {
 /* Selector hijo directo */
 header > nav > ul > li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 /* Selector de clase combinada */
