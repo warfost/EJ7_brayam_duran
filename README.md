@@ -1,1 +1,3 @@
-Se crea nueva rama se agrega los colaboradores
+# EJ7_brayam_duran
+Ej7
+Archivo actualizado readme
